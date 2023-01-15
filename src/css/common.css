@@ -16,3 +16,38 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/*Styles timer*/
+#datetime-picker {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+}
+
+button {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: crimson;
+  border-radius: 4px;
+  border-color: beige;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: crimson;
+  color: white;
+  box-shadow: 4px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.value {
+  color: crimson;
+}
