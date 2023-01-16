@@ -42,6 +42,10 @@ button:hover {
   box-shadow: 4px;
 }
 
+button:disabled {
+  opacity: 0.5;
+}
+
 .timer {
   display: flex;
   gap: 20px;

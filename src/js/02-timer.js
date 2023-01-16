@@ -26,6 +26,7 @@ const options = {
     // console.log(selectedDates[0]);
     if (selectedDates[0] < date) {
       Notiflix.Report.failure('Please choose a date in the future', '', 'Ok');
+      btnJs.disabled = true;
     } else {
       btnJs.disabled = false;
     }
