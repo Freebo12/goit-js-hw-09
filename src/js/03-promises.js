@@ -45,12 +45,12 @@ function valueElements(event) {
 //Result_ok_or_no
 function succesPromise(position, delay) {
   return Notiflix.Notify.success(
-    `✅ Fulfilled promise ${position} in ${delay} ms`
+    `✅ Fulfilled promise ${position.position} in ${position.delay} ms`
   );
 }
 
 function unSuccesPromise(position, delay) {
   return Notiflix.Notify.failure(
-    `❌ Rejected promise ${position} in ${delay} ms`
+    `❌ Rejected promise ${position.position} in ${position.delay} ms`
   );
 }
